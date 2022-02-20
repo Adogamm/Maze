@@ -8,7 +8,7 @@ public class MoveBall : MonoBehaviour
     private Rigidbody rb;
     private float horizontalInput;
     private float verticalInput;
-    private float speed = 10.0f;
+    private float speed = 15.0f;
     void Start()
     {
         rb = GetComponent<Rigidbody>();
